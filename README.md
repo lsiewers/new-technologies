@@ -1,1 +1,1 @@
-# new-technologies (not technologisch)
+# new-technologies
