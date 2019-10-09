@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{07E3297D-1CE7-BC5A-37CB-20CD365AB8A4}</ProjectGuid>
+    <ProjectGuid>{01EE4EC9-50A7-BB1B-19BC-384C9FD871A6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Oculus.VR</AssemblyName>
@@ -134,13 +134,13 @@
     <None Include="Assets\Oculus\VR\Resources\Underlay Impostor.shader" />
     <None Include="Assets\Oculus\VR\Plugins\placeholder.txt" />
     <Reference Include="UnityEditor.UI">
-      <HintPath>/Users/marijke/Desktop/HKU IAD 2/New Technologies/new-technologisch-master/VR Basketball/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>/Users/marijke/Desktop/HKU IAD 2/New Technologies/new-technologisch-master/VR Basketball V2.0 copy/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>/Users/marijke/Desktop/HKU IAD 2/New Technologies/new-technologisch-master/VR Basketball/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>/Users/marijke/Desktop/HKU IAD 2/New Technologies/new-technologisch-master/VR Basketball V2.0 copy/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>/Users/marijke/Desktop/HKU IAD 2/New Technologies/new-technologisch-master/VR Basketball/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>/Users/marijke/Desktop/HKU IAD 2/New Technologies/new-technologisch-master/VR Basketball V2.0 copy/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.6f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

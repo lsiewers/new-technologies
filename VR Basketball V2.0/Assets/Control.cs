@@ -13,7 +13,6 @@ public class Control : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
     }
 
     // Update is called once per frame
@@ -27,9 +26,9 @@ public class Control : MonoBehaviour
         int distance = 15;
         transform.position = (transform.position - cam.transform.position).normalized * distance + cam.transform.position;
 
-        if (cam.WorldToViewportPoint(transform.position).x >= 0.8f) {
+        if (cam.WorldToViewportPoint(transform.position).x >= 0.7f) {
             cam.GetComponentInParent<OVRCameraRig>().transform.Rotate(cam.transform.rotation.x, cam.transform.rotation.y + mouseSensitivity, cam.transform.rotation.z);
-        } else if(cam.WorldToViewportPoint(transform.position).x <= 0.2f) {
+        } else if(cam.WorldToViewportPoint(transform.position).x <= 0.3f) {
             cam.GetComponentInParent<OVRCameraRig>().transform.Rotate(cam.transform.rotation.x, cam.transform.rotation.y - mouseSensitivity, cam.transform.rotation.z);
         }
 

@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{80581939-7E73-8F9B-F4D5-C14F0042EF90}</ProjectGuid>
+    <ProjectGuid>{AF4F9B7F-F8AD-4314-D780-D831987FF20E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -64,7 +64,6 @@
   <ItemGroup>
     <Compile Include="Assets\AudioTest.cs" />
     <Compile Include="Assets\Basketball.cs" />
-    <Compile Include="Assets\cameraControl.cs" />
     <Compile Include="Assets\cloudboi.cs" />
     <Compile Include="Assets\Control.cs" />
     <Compile Include="Assets\Oculus\AudioManager\Scenes\Scripts\TestScript.cs" />
@@ -404,37 +403,37 @@
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\Oculus\SampleFramework\Usage\DistanceGrab\Materials\CrosshairZCheat.shader" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>/Users/marijke/Desktop/HKU IAD 2/New Technologies/new-technologisch-master/VR Basketball/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>/Users/marijke/Desktop/HKU IAD 2/New Technologies/new-technologisch-master/VR Basketball V2.0 copy/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>/Users/marijke/Desktop/HKU IAD 2/New Technologies/new-technologisch-master/VR Basketball/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>/Users/marijke/Desktop/HKU IAD 2/New Technologies/new-technologisch-master/VR Basketball V2.0 copy/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/marijke/Desktop/HKU IAD 2/New Technologies/new-technologisch-master/VR Basketball/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/marijke/Desktop/HKU IAD 2/New Technologies/new-technologisch-master/VR Basketball V2.0 copy/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>/Users/marijke/Desktop/HKU IAD 2/New Technologies/new-technologisch-master/VR Basketball/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>/Users/marijke/Desktop/HKU IAD 2/New Technologies/new-technologisch-master/VR Basketball V2.0 copy/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>/Users/marijke/Desktop/HKU IAD 2/New Technologies/new-technologisch-master/VR Basketball/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>/Users/marijke/Desktop/HKU IAD 2/New Technologies/new-technologisch-master/VR Basketball V2.0 copy/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>/Users/marijke/Desktop/HKU IAD 2/New Technologies/new-technologisch-master/VR Basketball/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>/Users/marijke/Desktop/HKU IAD 2/New Technologies/new-technologisch-master/VR Basketball V2.0 copy/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>/Users/marijke/Desktop/HKU IAD 2/New Technologies/new-technologisch-master/VR Basketball/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>/Users/marijke/Desktop/HKU IAD 2/New Technologies/new-technologisch-master/VR Basketball V2.0 copy/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>/Users/marijke/Desktop/HKU IAD 2/New Technologies/new-technologisch-master/VR Basketball/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>/Users/marijke/Desktop/HKU IAD 2/New Technologies/new-technologisch-master/VR Basketball V2.0 copy/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>/Users/marijke/Desktop/HKU IAD 2/New Technologies/new-technologisch-master/VR Basketball/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>/Users/marijke/Desktop/HKU IAD 2/New Technologies/new-technologisch-master/VR Basketball V2.0 copy/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/marijke/Desktop/HKU IAD 2/New Technologies/new-technologisch-master/VR Basketball/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/marijke/Desktop/HKU IAD 2/New Technologies/new-technologisch-master/VR Basketball V2.0 copy/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>/Users/marijke/Desktop/HKU IAD 2/New Technologies/new-technologisch-master/VR Basketball/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>/Users/marijke/Desktop/HKU IAD 2/New Technologies/new-technologisch-master/VR Basketball V2.0 copy/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.6f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -970,15 +969,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Oculus.VR.Editor.csproj">
-      <Project>{BE883A99-D5D9-DD94-89AD-9B36238F8078}</Project>
+      <Project>{014B392C-6BC8-DB73-97D0-244113352CF9}</Project>
       <Name>Oculus.VR.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.VR.Scripts.Editor.csproj">
-      <Project>{3F4CA0BE-3486-607A-A53F-6BF8253E4B1A}</Project>
+      <Project>{AFADEF0F-65DA-20D6-EBDF-4CB63C14B971}</Project>
       <Name>Oculus.VR.Scripts.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.VR.csproj">
-      <Project>{07E3297D-1CE7-BC5A-37CB-20CD365AB8A4}</Project>
+      <Project>{01EE4EC9-50A7-BB1B-19BC-384C9FD871A6}</Project>
       <Name>Oculus.VR</Name>
     </ProjectReference>
   </ItemGroup>

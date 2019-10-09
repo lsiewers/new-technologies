@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{BE883A99-D5D9-DD94-89AD-9B36238F8078}</ProjectGuid>
+    <ProjectGuid>{014B392C-6BC8-DB73-97D0-244113352CF9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Oculus.VR.Editor</AssemblyName>
@@ -83,19 +83,19 @@
     <Compile Include="Assets\Oculus\VR\Editor\PathHelper.cs" />
     <None Include="Assets\Oculus\VR\Editor\AndroidManifest.OVRSubmission.xml" />
     <Reference Include="UnityEditor.UI">
-      <HintPath>/Users/marijke/Desktop/HKU IAD 2/New Technologies/new-technologisch-master/VR Basketball/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>/Users/marijke/Desktop/HKU IAD 2/New Technologies/new-technologisch-master/VR Basketball V2.0 copy/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>/Users/marijke/Desktop/HKU IAD 2/New Technologies/new-technologisch-master/VR Basketball/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>/Users/marijke/Desktop/HKU IAD 2/New Technologies/new-technologisch-master/VR Basketball V2.0 copy/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>/Users/marijke/Desktop/HKU IAD 2/New Technologies/new-technologisch-master/VR Basketball/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>/Users/marijke/Desktop/HKU IAD 2/New Technologies/new-technologisch-master/VR Basketball V2.0 copy/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
-      <HintPath>/Users/marijke/Desktop/HKU IAD 2/New Technologies/new-technologisch-master/VR Basketball/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+      <HintPath>/Users/marijke/Desktop/HKU IAD 2/New Technologies/new-technologisch-master/VR Basketball V2.0 copy/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-      <HintPath>/Users/marijke/Desktop/HKU IAD 2/New Technologies/new-technologisch-master/VR Basketball/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+      <HintPath>/Users/marijke/Desktop/HKU IAD 2/New Technologies/new-technologisch-master/VR Basketball V2.0 copy/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.6f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -293,7 +293,7 @@
       <HintPath>/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>/Users/marijke/Desktop/HKU IAD 2/New Technologies/new-technologisch-master/VR Basketball/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>/Users/marijke/Desktop/HKU IAD 2/New Technologies/new-technologisch-master/VR Basketball V2.0 copy/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>/Applications/Unity/Hub/Editor/2019.2.6f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -652,7 +652,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Oculus.VR.csproj">
-      <Project>{07E3297D-1CE7-BC5A-37CB-20CD365AB8A4}</Project>
+      <Project>{01EE4EC9-50A7-BB1B-19BC-384C9FD871A6}</Project>
       <Name>Oculus.VR</Name>
     </ProjectReference>
   </ItemGroup>
