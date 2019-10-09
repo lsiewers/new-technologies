@@ -5,7 +5,10 @@ using UnityEngine;
 public class Control : MonoBehaviour
 {
     [SerializeField] private Camera cam;
-    private int rotationSpeed = 1;
+    private int rotationSpeed = 2;
+    [SerializeField] private float mouseSensitivity = 1.0f;
+    private float prevX;
+    private float zRotation;
     
     // Start is called before the first frame update
     void Start()
@@ -16,12 +19,25 @@ public class Control : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = cam.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 15));
+        transform.position = cam.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, cam.WorldToScreenPoint(transform.position).z));
+        // transform.RotateAround(cam.transform.position, Vector3.up, Time.deltaTime * (prevX - transform.position.x));
+        prevX = transform.position.x;
+        transform.LookAt(new Vector3(cam.transform.position.x, transform.position.y, cam.transform.position.z));
+        
+        int distance = 15;
+        transform.position = (transform.position - cam.transform.position).normalized * distance + cam.transform.position;
 
-        if(Input.GetMouseButtonDown(0)) {
-            transform.Rotate(transform.rotation.x - rotationSpeed, transform.rotation.y - rotationSpeed, 5);
-        } else if (Input.GetMouseButtonDown(1)) {
-            transform.Rotate(transform.rotation.x + rotationSpeed, transform.rotation.y + rotationSpeed, 5);
+        if (cam.WorldToViewportPoint(transform.position).x >= 0.8f) {
+            cam.GetComponentInParent<OVRCameraRig>().transform.Rotate(cam.transform.rotation.x, cam.transform.rotation.y + mouseSensitivity, cam.transform.rotation.z);
+        } else if(cam.WorldToViewportPoint(transform.position).x <= 0.2f) {
+            cam.GetComponentInParent<OVRCameraRig>().transform.Rotate(cam.transform.rotation.x, cam.transform.rotation.y - mouseSensitivity, cam.transform.rotation.z);
         }
+
+        if(Input.GetKey(KeyCode.UpArrow)) {
+            zRotation += rotationSpeed;
+        } else if (Input.GetKey(KeyCode.DownArrow)) {
+            zRotation -= rotationSpeed;
+        }
+        transform.Rotate(new Vector3(transform.rotation.x, transform.rotation.y, zRotation));
     }
 }
