@@ -45,7 +45,7 @@ MonoBehaviour:
     y: 0
     width: 1440
     height: 856
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 544}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -113,7 +113,7 @@ MonoBehaviour:
   m_MinSize: {x: 509, y: 494}
   m_MaxSize: {x: 14004, y: 14044}
   vertical: 0
-  controlID: 2387
+  controlID: 89
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -138,7 +138,7 @@ MonoBehaviour:
   m_MinSize: {x: 509, y: 494}
   m_MaxSize: {x: 14004, y: 14044}
   vertical: 0
-  controlID: 2388
+  controlID: 90
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -163,7 +163,7 @@ MonoBehaviour:
   m_MinSize: {x: 232, y: 494}
   m_MaxSize: {x: 10002, y: 14044}
   vertical: 1
-  controlID: 2389
+  controlID: 91
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -243,7 +243,7 @@ MonoBehaviour:
   m_MinSize: {x: 277, y: 294}
   m_MaxSize: {x: 4002, y: 8044}
   vertical: 1
-  controlID: 2356
+  controlID: 16
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -332,9 +332,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -2.2227802, y: 0.64533794, z: -3.5094483}
+    m_Target: {x: 1.0965023, y: 5.8641295, z: -23.762619}
     speed: 2
-    m_Value: {x: -2.2227802, y: 0.64533794, z: -3.5094483}
+    m_Value: {x: 1.0965023, y: 5.8641295, z: -23.762619}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -355,25 +355,25 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
     yGrid:
-      m_Target: 1
+      m_Target: 0
       speed: 2
-      m_Value: 1
+      m_Value: 0
     zGrid:
       m_Target: 0
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.37508082, y: -0.07494952, z: 0.030504161, w: 0.9234814}
+    m_Target: {x: -0.004940353, y: 0.2493384, z: 0.0012750609, w: 0.9684061}
     speed: 2
-    m_Value: {x: 0.37507117, y: -0.07494759, z: 0.030503375, w: 0.9234576}
+    m_Value: {x: -0.004940338, y: 0.24933766, z: 0.0012750571, w: 0.9684032}
   m_Size:
-    m_Target: 37.065224
+    m_Target: 58.823513
     speed: 2
-    m_Value: 37.065224
+    m_Value: 58.823513
   m_Ortho:
-    m_Target: 0
+    m_Target: 1
     speed: 2
-    m_Value: 0
+    m_Value: 1
   m_CameraSettings:
     m_Speed: 1
     m_SpeedNormalized: 0.5
@@ -541,20 +541,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/world
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/world
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: /Users/luuksiewers/Documents/Developer/Unity/VR Basketball
+  m_LastProjectPath: /Users/luuksiewers/Documents/Developer/Unity/VR Basketball (Git)/VR
+    Basketball V2.0
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ce3b0000
-    m_LastClickedID: 15310
-    m_ExpandedIDs: 00000000b231000000ca9a3b
+    m_SelectedIDs: 9e6c0000
+    m_LastClickedID: 27806
+    m_ExpandedIDs: 00000000606b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -582,7 +583,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b231000000ca9a3b
+    m_ExpandedIDs: 00000000606b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -728,10 +729,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: d2480000
-      m_LastClickedID: 18642
-      m_ExpandedIDs: cef1ffffdaf1ffffd4f7ffffd8f7ffffeef7fffffaf7ffff34f8ffff1cfaffff74fbffff3e420000d2480000
+      scrollPos: {x: 0, y: 246.00061}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: dca3ffff6a75000016780000727800007a790000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 

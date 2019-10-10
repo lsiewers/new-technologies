@@ -57,7 +57,6 @@
   <ItemGroup>
      <Compile Include="Assets\AudioTest.cs" />
      <Compile Include="Assets\Basketball.cs" />
-     <Compile Include="Assets\cameraControl.cs" />
      <Compile Include="Assets\cloudboi.cs" />
      <Compile Include="Assets\Control.cs" />
      <Compile Include="Assets\Oculus\AudioManager\Scenes\Scripts\TestScript.cs" />
