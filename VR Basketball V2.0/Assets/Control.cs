@@ -27,9 +27,9 @@ public class Control : MonoBehaviour
         transform.position = (transform.position - cam.transform.position).normalized * distance + cam.transform.position;
 
         if (cam.WorldToViewportPoint(transform.position).x >= 0.7f) {
-            cam.GetComponentInParent<OVRCameraRig>().transform.Rotate(cam.transform.rotation.x, cam.transform.rotation.y + mouseSensitivity, cam.transform.rotation.z);
+            cam.transform.Rotate(cam.transform.rotation.x, cam.transform.rotation.y + mouseSensitivity, cam.transform.rotation.z);
         } else if(cam.WorldToViewportPoint(transform.position).x <= 0.3f) {
-            cam.GetComponentInParent<OVRCameraRig>().transform.Rotate(cam.transform.rotation.x, cam.transform.rotation.y - mouseSensitivity, cam.transform.rotation.z);
+            cam.transform.Rotate(cam.transform.rotation.x, cam.transform.rotation.y - mouseSensitivity, cam.transform.rotation.z);
         }
 
         if(Input.GetKey(KeyCode.UpArrow)) {
